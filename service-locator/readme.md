@@ -25,5 +25,5 @@ In this example repository:
 4. In the main file I've created an `ExampleLog`, registered it with the `LogLocator` instance and then retrievied its pointer before calling the interface method on it. (`main.cpp`)
 
 ## More Information
-1. (Service Locator Pattern (Wikipedia))[https://en.wikipedia.org/wiki/Service_locator_pattern]
-2. (Service Locator Pattern - Game Programming Patterns)[https://gameprogrammingpatterns.com/service-locator.html]
+1. [Service Locator Pattern (Wikipedia)](https://en.wikipedia.org/wiki/Service_locator_pattern)
+2. [Service Locator Pattern - Game Programming Patterns](https://gameprogrammingpatterns.com/service-locator.html)
