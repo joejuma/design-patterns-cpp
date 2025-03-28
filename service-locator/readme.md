@@ -23,3 +23,7 @@ In this example repository:
 2. I've then created a derived class `ExampleLog` which implements the interface. (`ExampleLog_struct.h`)
 3. I've created a service locator, `LogLocator` which stores pointers of `Logging` type. (`LogLocator_struct.h` and `LogLocator_struct.cpp`)
 4. In the main file I've created an `ExampleLog`, registered it with the `LogLocator` instance and then retrievied its pointer before calling the interface method on it. (`main.cpp`)
+
+## More Information
+1. (Service Locator Pattern (Wikipedia))[https://en.wikipedia.org/wiki/Service_locator_pattern]
+2. (Service Locator Pattern - Game Programming Patterns)[https://gameprogrammingpatterns.com/service-locator.html]
