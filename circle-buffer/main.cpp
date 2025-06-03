@@ -13,6 +13,9 @@ int main(int argc, char* argv[])
     // Create the buffer,
     CircleBuffer<uint8_t, 4> buffer;
     
+    // Print the size of the buffer,
+    std::cout << "Size of CircleBuffer<uint8_t,4>:" << std::to_string(sizeof(CircleBuffer<uint8_t,4>)) << " bytes\n";
+
     // Time 100 million inserts,
     timepoint start = std::chrono::high_resolution_clock::now();
     for(uint64_t i = 0; i < 100000000; i++)

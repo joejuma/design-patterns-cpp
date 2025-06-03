@@ -14,7 +14,7 @@ Although this pattern is a minor adjustment of a very common pattern, it may be 
 
 In this example repository:
 1. I've created the circular buffer class. (`CircleBuffer_struct.h`) 
-2. In the main file I've create an example `buffer` object, written to it 100,000,000 times and printed the output as well as performance in microseconds using a naive assessment method. (`main.cpp`)
+2. In the main file I've create an example `buffer` object, printed its size, written to it 100,000,000 times and printed the performance in microseconds using a naive assessment method, then printed 10 elements from it which will loop 2.5 times due to the buffer being 4 elements long. (`main.cpp`)
 
 ## More Information
 1. [Circular Buffer (Wikipedia)](https://en.wikipedia.org/wiki/Circular_buffer)
