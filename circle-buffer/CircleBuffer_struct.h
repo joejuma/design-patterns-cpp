@@ -74,7 +74,13 @@ struct CircleBuffer
 	};
 
 	// Buffer Methods
-	inline void push_back(const T& value)
+	inline void push_back(const T& value) noexcept
+	{
+		this->data[this->ptr] = value;
+		this->decrementPointer();
+	};
+
+	inline void push_back(const T&& value) noexcept
 	{
 		this->data[this->ptr] = value;
 		this->decrementPointer();
