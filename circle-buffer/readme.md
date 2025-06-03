@@ -25,6 +25,6 @@ There may be a few confusing or nuanced aspects of C++ in the structure. I'd lik
 
 ## More Information
 1. [Circular Buffer (Wikipedia)](https://en.wikipedia.org/wiki/Circular_buffer)
-2. [pragma pack (GNU C++)][https://web.archive.org/web/20250116210423/https://gcc.gnu.org/onlinedocs/gcc-4.4.4/gcc/Structure_002dPacking-Pragmas.html]
-3. [Data Structure Alignment (Wikipedia)][https://en.wikipedia.org/wiki/Data_structure_alignment]
-4. [Virtual Method Table][https://en.wikipedia.org/wiki/Virtual_method_table]
+2. [Pragma Pack (GNU C++)](https://web.archive.org/web/20250116210423/https://gcc.gnu.org/onlinedocs/gcc-4.4.4/gcc/Structure_002dPacking-Pragmas.html)
+3. [Data Structure Alignment (Wikipedia)](https://en.wikipedia.org/wiki/Data_structure_alignment)
+4. [Virtual Method Table](https://en.wikipedia.org/wiki/Virtual_method_table)
